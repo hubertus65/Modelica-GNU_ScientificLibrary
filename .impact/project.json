@@ -1,0 +1,56 @@
+{
+  "name": "Modelica-gnu_scientificlibrary",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "GNU_ScientificLibrary",
+      "contentType": "MODELICA",
+      "name": "GNU_ScientificLibrary",
+      "defaultDisabled": false,
+      "id": "c2421eb106ff437eab0a23cd964c6911"
+    },
+    {
+      "relpath": "Resources/Views",
+      "contentType": "VIEWS",
+      "defaultDisabled": false,
+      "id": "80b733709dd849fab43da7ab4eec96cd"
+    },
+    {
+      "relpath": "Resources/Favorites",
+      "contentType": "FAVORITES",
+      "defaultDisabled": false,
+      "id": "81402d8d572c4c3bbb9bd5e8f9db942e"
+    },
+    {
+      "relpath": "Resources/CustomFunctions",
+      "contentType": "CUSTOM_FUNCTIONS",
+      "defaultDisabled": false,
+      "id": "c49d1d5b685e466fb6049e76b8c17d5a"
+    },
+    {
+      "relpath": "Resources/Custom",
+      "contentType": "GENERIC",
+      "defaultDisabled": false,
+      "id": "d45a548d9ecf470a83ed8d6f95e99ea2"
+    },
+    {
+      "relpath": "ReferenceResults",
+      "contentType": "REFERENCE_RESULTS",
+      "defaultDisabled": false,
+      "id": "849d8ab97fbf4264afd897e6af6c2318"
+    },
+    {
+      "relpath": "Resources/ExperimentDefinitions",
+      "contentType": "EXPERIMENT_DEFINITIONS",
+      "defaultDisabled": false,
+      "id": "8e8afd9f12f24a8dae404e3cec8c4e5a"
+    }
+  ],
+  "executionOptions": []
+}
