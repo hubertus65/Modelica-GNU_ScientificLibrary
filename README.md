@@ -7,6 +7,7 @@ Free library for accessing the [GNU Scientific Library](https://www.gnu.org/soft
 
 - OpenModelica 1.21.0.
 - Dymola 2023x Refresh 1
+- Modelon Impact cloud 3.37.0, fixed in this fork only. 
 
 ## License
 
