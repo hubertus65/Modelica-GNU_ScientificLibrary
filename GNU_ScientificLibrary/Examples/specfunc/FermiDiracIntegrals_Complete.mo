@@ -40,5 +40,5 @@ equation
     __OpenModelica_simulationFlags(lv = "LOG_STATS", s = "dassl", variableFilter = ".*"),
     experiment(StartTime = 0, StopTime = 500, Tolerance = 1e-06, Interval = 0.25),
   Documentation(info = "<html><head></head><body>Example evaluation of complete Fermi-Dirac integrals, F<sub>nu</sub>(x), using GSL function blocks.<div><br></div><div>The F<sub>3/2</sub>(x) and F<sub>1/2</sub>(x) functions are related to the pressure and density, respectively, of an ensemble of non-relativistic fermions and can be used to determine part of the equation of state (EoS) of, say, conduction electrons in metals and plasmas (x = mu/k*T; see, e.g., §56 of Landau &amp; Lifshitz, Statistical Physics Part 1, 1980). A comparison of F<sub>1/2</sub>(x) with its asymptotic forms (x&lt;&lt;-1 and x&gt;&gt;1) is also provided.</div><div><img src=\"modelica://GNU_ScientificLibrary/Examples/specfunc/Fhalf_vs_eta.png\"></div></body></html>"),
-  Diagram(coordinateSystem(extent = {{-80, 80}, {80, -60}})));
+  Diagram(coordinateSystem(extent = {{-80, 80}, {80, 60}})));
 end FermiDiracIntegrals_Complete;

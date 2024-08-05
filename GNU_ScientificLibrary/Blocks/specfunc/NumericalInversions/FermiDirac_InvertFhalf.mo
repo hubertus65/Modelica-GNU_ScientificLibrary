@@ -15,7 +15,7 @@ block FermiDirac_InvertFhalf
 equation
   if y < 1.0 then   // Maxwell-Boltzmann asymp. expansion
     xmin = log(y);
-    xmax = xmin + 0.4;
+    xmax = xmin + 0.5; // increased xmax from 0.4 to 0.5 due to (rare) cases of non-bracketing
   elseif y > 3.0 then   // degenerate asymp. expansion
     xmax = (0.75*y*sqrt(Modelica.Constants.pi))^0.6666666666667;
     xmin = xmax - 0.4;
