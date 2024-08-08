@@ -1,6 +1,6 @@
 {
   "version" : "2",
-  "id" : "5a0df77a-50a0-490e-9608-d0c82374b25f",
+  "id" : "28a837c6-a5d4-44fa-9a4e-21d0845953f1",
   "experiment" : {
     "base" : {
       "analysis" : {
@@ -9,10 +9,9 @@
         "choices" : [ {
           "type" : "dynamic",
           "parameters" : {
-            "final_time" : 10000,
-            "interval" : 1,
-            "start_time" : 0,
-            "tolerance" : 1.0E-6
+            "final_time" : 5,
+            "interval" : 0.01,
+            "start_time" : 0
           },
           "simulationOptions" : {
             "dynamic_diagnostics" : false,
@@ -48,8 +47,8 @@
     }
   },
   "metadata" : {
-    "created" : "2024-08-05 19:53:44.170430134",
-    "lastModified" : "2024-08-08T16:31:25.757424816Z",
+    "created" : "2024-08-08 16:11:55.50793752",
+    "lastModified" : "2024-08-08T16:12:01.430657960Z",
     "name" : "Experiment 1"
   }
 }
